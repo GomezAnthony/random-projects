@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(14, 12, 12);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-content-input {
+  display: flex;
+  justify-content: center;
+}
+.main-content-input input {
+  border: none;
+  background-color: transparent;
+  height: 20px;
+  width: 500px;
+}
+.main-content-input button {
+  height: 30px;
+  width: 100px;
+}
+.main-content-input input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: aliceblue;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
